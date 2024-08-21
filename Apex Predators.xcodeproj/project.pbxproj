@@ -11,6 +11,7 @@
 		810CB0CD2C7660D000B3CBF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810CB0CC2C7660D000B3CBF4 /* ContentView.swift */; };
 		810CB0CF2C7660D200B3CBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810CB0CE2C7660D200B3CBF4 /* Assets.xcassets */; };
 		810CB0D22C7660D200B3CBF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810CB0D12C7660D200B3CBF4 /* Preview Assets.xcassets */; };
+		810CB0D92C76659900B3CBF4 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 810CB0D82C76659900B3CBF4 /* jpapexpredators.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		810CB0CC2C7660D000B3CBF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		810CB0CE2C7660D200B3CBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		810CB0D12C7660D200B3CBF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		810CB0D82C76659900B3CBF4 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jpapexpredators.json; path = JP17Resources/jpapexpredators.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				810CB0CA2C7660D000B3CBF4 /* Apex_PredatorsApp.swift */,
 				810CB0CC2C7660D000B3CBF4 /* ContentView.swift */,
+				810CB0D82C76659900B3CBF4 /* jpapexpredators.json */,
 				810CB0CE2C7660D200B3CBF4 /* Assets.xcassets */,
 				810CB0D02C7660D200B3CBF4 /* Preview Content */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				810CB0D22C7660D200B3CBF4 /* Preview Assets.xcassets in Resources */,
 				810CB0CF2C7660D200B3CBF4 /* Assets.xcassets in Resources */,
+				810CB0D92C76659900B3CBF4 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +282,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +311,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
