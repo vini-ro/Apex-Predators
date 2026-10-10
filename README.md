@@ -1,5 +1,7 @@
 # Apex Predators
 
+> 📚 Projeto de estudo desenvolvido durante o curso de iOS com Swift e SwiftUI (Udemy).
+
 **Apex Predators** é um aplicativo desenvolvido em SwiftUI que oferece informações detalhadas sobre predadores de filmes, incluindo suas localizações e cenas icônicas. Este projeto é uma demonstração prática das habilidades adquiridas em Swift e SwiftUI.
 
 ## Funcionalidades
@@ -30,7 +32,7 @@ O projeto é dividido em diversos arquivos para garantir uma boa organização:
 
 1. Clone o repositório para o seu ambiente local:
     ```sh
-    git clone https://github.com/seu-usuario/apex-predators.git
+    git clone https://github.com/vini-ro/Apex-Predators.git
     ```
 2. Abra o projeto no Xcode.
 3. Execute o aplicativo no simulador ou em um dispositivo físico.
